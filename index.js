@@ -17,7 +17,7 @@ client.connect()
         console.log('node-tut', users);
     })
     .catch(err => {
-        console.error('Error connecting to MongoDB:', err);
+        console.error('Error connecting to MongoDB: error console', err);
     })
     .finally(() => {
         //client.close();
