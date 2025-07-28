@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>home</title>
+</head>
+
+<body>
+
+    <%- include("partials/header") %>
+        <%user.forEach((e)=>{ %>
+            <h3>
+                <%=e.name %>
+            </h3>
+            <h4>
+                <%=e.title%>
+            </h4>
+            <% })%>
+
+
+</body>
+
+</html>
